@@ -8,19 +8,25 @@
 body {
     font-size: 150px;
     padding-top: 200px;
-    
-
 }
 
 h1 {
-font-family: 'Big Shoulders Display', cursive;
-color: hsl(0, 0%, 95%);
-}
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 15px;
+    }
 
 p {
 font-family: 'Lexend Deca', sans-serif;
 color: hsla(0, 0%, 100%, 0.75);
-text-align: center;
+text-align: left;
+width: 200px;
+font-size: 14px;
 }
 
 .container {
@@ -34,53 +40,72 @@ text-align: center;
 .box {
     position: relative;
     overflow: hidden;
-    padding: 30px;
+    padding: 40px;
     margin:0;
     width: 350px;
     height: 500px;
     display:list-item;
-
 }
 
 .orange-box {
     background-color: hsl(31, 77%, 52%);
-
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
 }
 
 .blue-box {
     background-color:hsl(184, 100%, 22%);
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
 }
 
 .green-box {
     background-color:hsl(179, 100%, 13%);
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
 }
+
+
 
 .orange-button {
 background-color: hsl(0, 0%, 95%);
 color:  hsl(31, 77%, 52%);
-padding: 10px;
-border-radius: 10px;
-border: hsl(0, 0%, 95%);
-align-items: center;
+margin-top: 95px;
+    padding: 10px;
+    border-radius: 25px;
+    border: hsl(0, 0%, 95%);
+    align-items: center;
+    width: 150px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .blue-button {
     background-color: hsl(0, 0%, 95%);
     color:hsl(184, 100%, 22%);
+    margin-top: 95px;
     padding: 10px;
-border-radius: 10px;
-border: hsl(0, 0%, 95%);
-   align-items: center;
+    border-radius: 25px;
+    border: hsl(0, 0%, 95%);
+    align-items: center;
+    width: 150px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
 
 }
 
 .green-button {
     background-color: hsl(0, 0%, 95%);
     color:hsl(179, 100%, 13%);
+    margin-top: 95px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 25px;
     border: hsl(0, 0%, 95%);
     align-items: center;
+    width: 150px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    
 
 }
 
