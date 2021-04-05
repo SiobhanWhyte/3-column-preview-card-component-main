@@ -8,6 +8,10 @@
 body {
     min-height : 100vh;
     background-color: hsl(0, 0%, 95%);
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -39,7 +43,6 @@ font-size: 14px;
 }
 
 .box {
-    position: relative;
     overflow: hidden;
     padding: 40px;
     margin:0;
@@ -94,5 +97,11 @@ color:  hsl(31, 77%, 52%);
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
 .attribution a { color: hsl(228, 45%, 44%); }
