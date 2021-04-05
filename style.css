@@ -7,6 +7,7 @@
 
 body {
     min-height : 100vh;
+    background-color: hsl(0, 0%, 95%);
 }
 
 h1 {
@@ -33,6 +34,7 @@ font-size: 14px;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    border-radius: 25px;
     max-width: 1440px;
 }
 
@@ -44,32 +46,24 @@ font-size: 14px;
     width: 350px;
     height: 500px;
     display:list-item;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
 }
 
 .orange-box {
     background-color: hsl(31, 77%, 52%);
-    font-family: 'Big Shoulders Display', cursive;
-    color: hsl(0, 0%, 95%);
 }
 
 .blue-box {
     background-color:hsl(184, 100%, 22%);
-    font-family: 'Big Shoulders Display', cursive;
-    color: hsl(0, 0%, 95%);
 }
 
 .green-box {
-    background-color:hsl(179, 100%, 13%);
-    font-family: 'Big Shoulders Display', cursive;
-    color: hsl(0, 0%, 95%);
+    background-color:hsl(179, 100%, 13%); 
 }
 
-
-
-.orange-button {
-background-color: hsl(0, 0%, 95%);
-color:  hsl(31, 77%, 52%);
-margin-top: 95px;
+.button {
+    margin-top: 95px;
     padding: 10px;
     border-radius: 25px;
     border: hsl(0, 0%, 95%);
@@ -77,35 +71,26 @@ margin-top: 95px;
     width: 150px;
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
+    outline :none;
+    cursor: pointer;
+
+}
+
+button:hover { background-color: #e2e1dd; }
+
+.orange-button {
+background-color: hsl(0, 0%, 95%);
+color:  hsl(31, 77%, 52%);
 }
 
 .blue-button {
     background-color: hsl(0, 0%, 95%);
     color:hsl(184, 100%, 22%);
-    margin-top: 95px;
-    padding: 10px;
-    border-radius: 25px;
-    border: hsl(0, 0%, 95%);
-    align-items: center;
-    width: 150px;
-    font-size: 15px;
-    font-family: 'Lexend Deca', sans-serif;
-
 }
 
 .green-button {
     background-color: hsl(0, 0%, 95%);
     color:hsl(179, 100%, 13%);
-    margin-top: 95px;
-    padding: 10px;
-    border-radius: 25px;
-    border: hsl(0, 0%, 95%);
-    align-items: center;
-    width: 150px;
-    font-size: 15px;
-    font-family: 'Lexend Deca', sans-serif;
-    
-
 }
 
 
